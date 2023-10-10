@@ -1,0 +1,50 @@
+:root {
+    --clr-dark: #070a12;
+    --clr-light: #f9f9fb;
+    --clr-accent: #f43f70;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  
+  * {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    word-spacing: 1.4px;
+    color: var(--clr-dark);
+    background-color: var(--clr-light);
+  }
+  
+  section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  @font-face {
+    font-family: 'Rocher';
+    src: url(https://assets.codepen.io/9632/RocherColorGX.woff2);
+  }
+  
+  h1 {
+    font-family: 'Rocher';
+    text-align: center;
+    font-size: 75px;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border-bottom: 5px solid var(--clr-dark); */
+  }
